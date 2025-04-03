@@ -59,7 +59,7 @@ if __name__ == "__main__":
     STOP_MARKER = "STOP_TRANSFORM"
 
     # Read the input G-code file
-    input_file = 'S2A_Print_test_with_casting v1_base_21min.gcode'
+    input_file = 'example.gcode'
     output_file = f'Transformed_{input_file}'
 
     X_SHIFT = 50
